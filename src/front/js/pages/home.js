@@ -19,7 +19,7 @@ export const Home = () => {
       </div>
       <br></br>
       <div>
-        <h3 className="text-info text-center">¿Que se busca?</h3>
+        <h3 className="text-info text-center" style={{ marginBottom: "20px"}}>¿Qué se busca?</h3>
         <div className="row d-flex justify-content-center">
           <div className="col-sm-12 col-md-6 col-lg-4">
             <p>
@@ -28,13 +28,13 @@ export const Home = () => {
               que puede ayudar a la comunidad o puede ser el surgimiento de
               nuevas marcas que con la ayuda de otros que quieran demostrar su
               apoyo y el avance de la sociedad puedan ser realizados
-              satisfactoriamente.
+              con éxito.
             </p>
           </div>
         </div>
       </div>
       <div>
-        <h3 className="text-info text-center">¿Cómo funciona?</h3>
+        <h3 className="text-info text-center" style={{ marginBottom: "20px"}}>¿Cómo funciona?</h3>
         <div className="row d-flex justify-content-center">
           <div className="col-sm-12 col-md-6 col-lg-4">
             <p>
@@ -48,7 +48,7 @@ export const Home = () => {
         </div>
       </div>
       <div className="text-center mt-5">
-        <h3 className="text-info">¿Qué dicen de nosotros?</h3>
+        <h3 className="text-info" style={{ marginBottom: "20px"}}>Comentarios</h3>
       </div>
       <ConjuntoCards />
     </div>
